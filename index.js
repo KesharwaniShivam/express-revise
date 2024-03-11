@@ -8,6 +8,13 @@ const app = express();
 const port = 3000;
 
 
+// serving static file
+// read about this in README.MD 1
+
+app.use(express.static(path.join(path.resolve(), "public")))
+
+// console.log(path.join(path.resolve(), "public"))
+
 
 
 
@@ -18,10 +25,10 @@ app.get("/" , (req, res)=>{
     // THIS IS BECAUSE HAME "HTML" FILE USE KARNI HAI 
 
     const pathLocation = path.resolve()   // ye path dega
-    console.log(pathLocation)
-    console.log(path.join(pathLocation, "index"))
+    // console.log(pathLocation)
+    // console.log(path.join(pathLocation, "index"))
 
-    res.sendFile(path.join(pathLocation, "./index.html"))
+    // res.sendFile(path.join(pathLocation, "./index.html"))
 })
 // console.log(path.resolve())
 // app.get("/about", (req, res)=>{
