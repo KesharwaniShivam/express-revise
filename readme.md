@@ -6,3 +6,10 @@ we have to provide path of PUBLIC folder so we can use , app.resolve() [for curr
 
 and this files are now publicly available , so we can access throungh broswer 
 
+2.because ye path to view folder ke ander ka hai 
+
+  agar koi path nhi h to by default ye public folder wale file ko le lega
+
+3. In html forms ACTION we specify routes (/)
+
+

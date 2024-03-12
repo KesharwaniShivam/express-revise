@@ -1,5 +1,34 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: bisque;
+    /* background-color: bisque; */
+}
+.main{
+    height: 100vh;
+    width: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 30px;
+    
+
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    /* background-color: white; */
+    color: white;
+    gap: 8px;
 }
