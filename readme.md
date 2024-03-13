@@ -2,7 +2,7 @@
 
 and this is basically a MIDDLEWARE so we use APP.USE() 
 
-we have to provide path of PUBLIC folder so we can use , app.resolve() [for current path] and app.join [ to join the public folder path]
+we have to provide path of PUBLIC folder so we can use , path.resolve() [for current path] and path.join [ to join the public folder path]
 
 and this files are now publicly available , so we can access throungh broswer 
 
