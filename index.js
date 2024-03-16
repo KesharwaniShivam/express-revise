@@ -7,12 +7,14 @@ import mongoose from "mongoose";
 import { userd } from "./Db.model.js";
 import { formData } from "./Form.model.js";
 
+
+
 const app = express();
 const port = 3000;
 
 const userDatas = [""]
 
-mongoose.connect("mongodb://127.0.0.1:27017", {
+mongoose.connect("process.env.MONGODB_URL", {
     dbName: "backend",
 }).then(() => console.log("Database Connnected")).catch((e) => console.log(e))
 
